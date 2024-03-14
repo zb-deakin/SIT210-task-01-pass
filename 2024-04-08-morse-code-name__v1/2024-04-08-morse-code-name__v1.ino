@@ -1,6 +1,6 @@
 int buttonState = 0;
 int ledPin = 12;
-int buttonPin = 7;
+int buttonPin = 11;
 
 bool buttonHasBeenPressedAtLeastOnce = false;
 int buttonIsBeingPressed = false;
@@ -30,8 +30,6 @@ void setup() {
 
   pinMode(ledPin, OUTPUT);
   pinMode(buttonPin, INPUT);
-
-  Serial.begin(9600);
 }
 
 void loop() {
